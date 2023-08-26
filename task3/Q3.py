@@ -8,7 +8,9 @@ def times_tables(tables_of=3):
 		print(f"{i} × {tables_of} = {i * tables_of}")
 
 
-tables_of = input_until_right("I would like the times tables of: ", "invalid type for the tables, must be either float or int", float)
+tables_of = input_until_right("Times Tables of: ",
+			       "invalid type for the tables, must be either float or int",
+				     float)
 
 times_tables(tables_of)
 
